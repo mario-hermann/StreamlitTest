@@ -1,5 +1,10 @@
 # Online Python - IDE, Editor, Compiler, Interpreter
-print("Welcome to the print machine")
+import streamlit as st
+
+st.write("""
+#Welcome to the print machine
+This is the first Streamlit test
+""")
 def sum(a, b):
     return (a + b)
 
