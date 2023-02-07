@@ -67,7 +67,7 @@ def message_m_color2(messagetext):
         color2(L + "\n\n" + messagetext + "\n" +  L + "\n")
         time.sleep(DELAY)
 
-        
+"""        
 def userinput():
         ui = st.text_input('Please enter sth.')
         time.sleep(DELAY)
@@ -81,24 +81,8 @@ def userinput():
 def printUTCdatetime():
         current_time = time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())    
         message_m_color2("ARS date and time (UTC): " + current_time)
-
 """
-def image_grid():
-        dir = Path.cwd()
-        image_list = list(dir.glob('*.jpg'))
-        plt.figure(figsize=(8,8))
-        
-        for index, image_path in enumerate(image_list):
-            image_path = str(image_path)
-            plt.subplot(3,2,index+1)
-            img = plt.imread(image_path)
-            plt.imshow(img)
-            plt.axis("off")
-        
-        plt.tight_layout()
-        plt.show()
-        plt.close()
-        time.sleep(DELAY)
+"""
 
         
 def company_info():
@@ -138,7 +122,7 @@ def applicant_recommendation_system():
         
         message_m_color2("Dear " + u1 + ",\nthe ARS has identified 1 promising\nnew entry with possible start date " + Mario.possiblestartdate + " for the position\n\n" + Mario.jobposition + ",\nbased in " + Mario.joblocation + "\n\nin its applicant database.")
         message_m_color2("Do you want to get to know more about this candidate? [Yes/No]")
-        u2 = userinput()
+        u2 = st.text_input('Please enter sth.')
         u2 = u2.casefold()
         
         while True:
