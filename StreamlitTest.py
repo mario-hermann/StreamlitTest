@@ -22,5 +22,6 @@ i = 1
 while True:
   a = random.random()
   i += a*i
+  st.write("Aktuelle Zufallszahl: " + str(a))
   st.write("Hallo, dies ist Durchgang " + str(i))
   time.sleep(0.000001)
