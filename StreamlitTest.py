@@ -9,7 +9,10 @@ import time
 import datetime
 #from pathlib import Path
 import sys
-
+st.write("Welcome to system 1.1")
+time.sleep(2)
+st.write("The input field comes now...")
+stime.sleep(2)
 a = st.text_input("Please enter something: ")
 time.sleep(2)
 st.write(a)
