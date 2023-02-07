@@ -16,3 +16,8 @@ time.sleep(3)
 a = st.text_input("Please enter something: ")
 time.sleep(2)
 st.write(a)
+i = 0
+while True:
+  i += 300
+  st.write("Hallo, dies ist Durchgang " + str(i))
+  time.sleep(0.3)
