@@ -130,7 +130,7 @@ def applicant_recommendation_system():
                 break  
             else:
                 message_m_color2("Oops! ... this entry was totally unexpected ...\n\nPlease give it another try ...\n\nThe ARS strongly suggests to continue with a positive input ...\n\nPlease try again with 'YES' or 'Yes' or 'y' or 'Y' ...")
-                u2 = userinput()
+                u2 = st.text_input('Please enter sth.')
                 u2 = u2.casefold()
        
         message_m_color2("Congratulations " + u1 + ", you want to get to know more about the candidate.")
