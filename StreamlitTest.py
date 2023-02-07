@@ -20,9 +20,14 @@ time.sleep(2)
 st.write(a)
 i = 1
 a = st.camera_input("Please take aphoto")
+counter = 1
 while True:
   a = random.random()
   i += a*i
+  
   st.write("Aktuelle Zufallszahl: " + str(a))
   st.write("Hallo, dies ist Durchgang " + str(i))
   time.sleep(0.000001)
+  if counter == 100:
+    break
+  counter +=1
