@@ -10,4 +10,4 @@ b = 2
 def sum(a, b):
     return (a + b)
 
-print("Sum is" + str(sum(a, b)))
+st.write("Sum is" + str(sum(a, b)))
