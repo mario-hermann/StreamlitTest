@@ -19,6 +19,7 @@ a = st.text_input("Please enter something: ")
 time.sleep(2)
 st.write(a)
 i = 1
+a = st.camera_input("Please take aphoto")
 while True:
   a = random.random()
   i += a*i
