@@ -18,8 +18,9 @@ time.sleep(3)
 a = st.text_input("Please enter something: ")
 time.sleep(2)
 st.write(a)
-i = random.random(10000000000000000000000000)
+i = 1
 while True:
-  i += i*i
+  a = random.random()
+  i += a*i
   st.write("Hallo, dies ist Durchgang " + str(i))
   time.sleep(0.3)
