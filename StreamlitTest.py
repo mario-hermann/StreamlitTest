@@ -3,7 +3,7 @@ import streamlit as st
 # Applicant Recommendation System (ARS)
 # written by Mario Hermann, Katowice/Poland in February 2023
 
-from matplotlib import pyplot as plt
+#from matplotlib import pyplot as plt
 #from tabulate import tabulate
 import time
 import datetime
