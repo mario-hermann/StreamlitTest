@@ -26,7 +26,7 @@ while True:
   i += a*i
   
   st.write("Aktuelle Zufallszahl: " + str(a))
-  st.write("Hallo, dies ist Durchgang " + str(i))
+  st.write("Hallo, dies ist Durchgang: " + str(counter))
   time.sleep(0.000001)
   if counter == 100:
     break
