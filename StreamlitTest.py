@@ -23,4 +23,4 @@ while True:
   a = random.random()
   i += a*i
   st.write("Hallo, dies ist Durchgang " + str(i))
-  time.sleep(0.01)
+  time.sleep(0.000001)
