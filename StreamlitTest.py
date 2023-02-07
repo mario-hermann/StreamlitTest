@@ -16,7 +16,6 @@ time.sleep(3)
 st.write("The input field comes now...")
 time.sleep(3)
 a = st.text_input("Please enter something: ")
-time.sleep(2)
 st.write(a)
 i = 1
 a = st.camera_input("Please take aphoto")
