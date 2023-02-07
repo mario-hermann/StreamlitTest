@@ -112,7 +112,7 @@ def contribution(u):
 def applicant_recommendation_system():
         message_l_color1("Welcome to the 3ELEPHANTS auto-promotion \nApplicant Recommendation System (ARS) -Version 3.9-")
         
-        printUTCdatetime()
+        #printUTCdatetime()
         
         message_m_color2("In order to use the Applicant Recommendation System,\nplease choose a session name:")
         u1 = "Mario"
