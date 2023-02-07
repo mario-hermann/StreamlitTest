@@ -69,7 +69,7 @@ def message_m_color2(messagetext):
 
         
 def userinput():
-        ui = input('')
+        ui = st.text_input('')
         time.sleep(DELAY)
         color1("... processing ...")
         time.sleep(DELAY)
