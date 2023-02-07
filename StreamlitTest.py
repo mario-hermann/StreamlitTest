@@ -131,7 +131,7 @@ def applicant_recommendation_system():
         printUTCdatetime()
         
         message_m_color2("In order to use the Applicant Recommendation System,\nplease choose a session name:")
-        u1 = userinput()
+        u1 = "Mario"
         message_m_color2("Hi " + u1 + ", nice that you are using the Applicant Recommendation System today.")
         
         #company_info()
